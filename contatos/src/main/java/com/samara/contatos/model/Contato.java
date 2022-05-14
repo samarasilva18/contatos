@@ -17,7 +17,8 @@ public class Contato {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
 
-    String name;
+    String nome;
 
     String email;
+
 }
